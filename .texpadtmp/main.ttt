@@ -1,0 +1,41 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h]
+\caption{Zusammenfassung G\"utepr\"ufung}
+\label{tab:Zusammenfassung}
+\begin{tabular}{|l|l|l|l|l|l|}
+  \hline
+\textbf{Factor} & \textbf{AVE} & \textbf{CR} & \textbf{R Square} & \textbf{Q Square} & \textbf{Alpha} \\
+  \hline
+ Net System Benefit & 1.000 & 1.000 & 0.503 & 0.476 & 1.000 \\
+  \hline
+ Service Quality & 0.809 & 0.927 & & & 0.882 \\
+  \hline
+ System Quality & 0.730 & 0.890 & & & 0.817 \\
+  \hline
+ User Satisfication & 0.786 & 0.880 & 0.526 & 0.388 & 0.737 \\
+ \hline
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[h]
+\caption{Zusammenfassung G\"utepr\"ufung 2}
+\label{tab:Zusammenfassung}
+\begin{tabular}{@{}llllll@{}} \toprule
+
+\textbf{Factor} & \textbf{AVE} & \textbf{CR} & \textbf{R Square} & \textbf{Q Square} & \textbf{Alpha} \\ \midrule
+
+ Net System Benefit & 1.000 & 1.000 & 0.503 & 0.476 & 1.000 \\
+
+ Service Quality & 0.809 & 0.927 & & & 0.882 \\
+
+ System Quality & 0.730 & 0.890 & & & 0.817 \\
+
+ User Satisfication & 0.786 & 0.880 & 0.526 & 0.388 & 0.737 \\ \bottomrule
+\end{tabular}
+\end{table*}
+\efloatseparator
+ 

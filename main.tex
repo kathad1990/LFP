@@ -1,0 +1,84 @@
+\documentclass[man,floatsintext,donotrepeattitle,a4paper]{apa6}
+
+%Alles fürs Zitieren und die bib
+\usepackage[utf8]{inputenc} 
+\usepackage{csquotes}
+\usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{german}{german-apa}
+\addbibresource{bib2.bib}
+\usepackage{textcomp}
+
+
+%Tabelle
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{booktabs}	
+\newcolumntype{G}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+%\renewcommand{\arraystretch}{1.5} % mehr Abstand zwischen zwei Tabellenzeilen
+%\newcommand{\lightrule}{\midrule[0.1\lightrulewidth]} 
+
+%Kram
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{todonotes}
+\usepackage{lipsum}
+
+
+\usepackage{blindtext}
+\makeatletter
+\def\flushboth{%
+      \let\\\@normalcr
+        \@rightskip\z@skip \rightskip\@rightskip
+          \leftskip\z@skip
+            \parindent 1.5em\relax}
+\makeatother
+
+%Titel
+\author{Katharina Drawert, Moritz Mager}
+\leftheader{Drawert, Mager}
+\affiliation{Leuphana Universität Lüneburg}
+\title{Erfolg von Massive Open Online Courses - messbar?}
+\shorttitle{MOOC Analyse}
+
+%Abstract
+\abstract{
+\flushboth
+\blindtext
+
+1. Function: An abstract summarizes, in one paragraph (usually), the major aspects of the entire paper in the following prescribed sequence:
+
+    the question(s) you investigated (or purpose), (from Introduction)
+        state the purpose very clearly in the first or second sentence. 
+    the experimental design and methods used, (from Methods)
+        clearly express the basic design of the study.
+        Name or briefly describe the basic methodology used without going into excessive detail-be sure to indicate the key techniques used. 
+    the major findings including key quantitative results, or trends (from Results)
+        report those results which answer the questions you were asking
+        identify trends, relative change or differences, etc. 
+    a brief summary of your interpetations and conclusions. (from Discussion)
+        clearly state the implications of the answers your results gave you. 
+}
+
+\keywords{MOOC, SEM, IS Success}
+
+%Los geht's
+\begin{document}
+\maketitle
+\input{Einleitung}
+%Zitattest
+\input{Grundlagen}
+%Grafiktest
+\input{Modell}
+\input{Empirische_Datenbasis}
+%Tabellentest
+\input{Ergebnisse}
+\input{Vergleich}
+\listoffigures 
+\listoftables
+\printbibliography
+\end{document}
