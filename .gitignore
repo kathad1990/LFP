@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # Latex files
 
+=======
+@@ -0,0 +1,41 @@
+# Latex files
+>>>>>>> origin/master
 *.aux
 *.glo
 *.idx
@@ -28,7 +33,10 @@
 *.out
 *.synctex.gz
 *.pdf
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 # Mac IDE files
 *.swp
 *~
@@ -36,6 +44,9 @@
 Backup[ ]of[ ]*.pages/
 Backup[ ]of[ ]*.key/
 Backup[ ]of[ ]*.numbers/
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 # Mac finder files and hidden folders
 .DS_Store

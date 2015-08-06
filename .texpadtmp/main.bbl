@@ -1,0 +1,139 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{behrenbruch2013understanding}{incollection}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,hash=2b20e392aae0e12cb34e5a38b657bd92}{Behrenbruch}{B\bibinitperiod}{Kay}{K\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=01ddd0eedabd2eb5b740a9fe09a5dfbc}{Söllner}{S\bibinitperiod}{Matthias}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=0650efdb31b69357472475afb445a549}{Leimeister}{L\bibinitperiod}{Jan\bibnamedelima Marco}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=d270a4c18c2a2a17b85671be0c4c8969}{Schmidt}{S\bibinitperiod}{Ludger}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{06b033578c1094344e9cd120e1013d42}
+      \strng{fullhash}{5c9bd89e87e1ba8a7fbe4dd19a0ac6c6}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Human-Computer Interaction--INTERACT 2013}
+      \field{title}{Understanding Diversity--The Impact of Personality on Technology Acceptance}
+      \field{year}{2013}
+      \field{pages}{306\bibrangedash 313}
+      \range{pages}{8}
+    \endentry
+    \entry{jakobowicz2006understanding}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=cb343249f2d1da0f4ccbdfec27ea1151}{Jakobowicz}{J\bibinitperiod}{Emmanuel}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{cb343249f2d1da0f4ccbdfec27ea1151}
+      \strng{fullhash}{cb343249f2d1da0f4ccbdfec27ea1151}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{COMPSTAT 2006, 17th Symposium on Computational Statistics, Rome, Italie}
+      \field{title}{Understanding PLS path modeling parameters estimates: a study based on monte carlo simulation and customer satisfaction surveys}
+      \field{year}{2006}
+      \field{pages}{721\bibrangedash 728}
+      \range{pages}{8}
+    \endentry
+    \entry{king2006meta}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=3778f151a9cdd47b71d33093acde19c6}{King}{K\bibinitperiod}{William\bibnamedelima R}{W\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1e1aeaa170e67ede50111a962ff1168c}{He}{H\bibinitperiod}{Jun}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6f25c4a32c744901d8989eb18577a97e}
+      \strng{fullhash}{6f25c4a32c744901d8989eb18577a97e}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information \& management}
+      \field{number}{6}
+      \field{title}{A meta-analysis of the technology acceptance model}
+      \field{volume}{43}
+      \field{year}{2006}
+      \field{pages}{740\bibrangedash 755}
+      \range{pages}{16}
+    \endentry
+    \entry{petter2008measuring}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=7aba70c0791c46e42739fed7f9abfa5b}{Petter}{P\bibinitperiod}{Stacie}{S\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=bcf47dc4242f90557970a6278a8a9705}{DeLone}{D\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9380971f9b2602aa617faa90c1e637ee}{McLean}{M\bibinitperiod}{Ephraim}{E\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{0cb893c66d02088344e9305ad3c0e38a}
+      \strng{fullhash}{686abcc5f70b2ee78fecdfe76e21a2de}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European journal of information systems}
+      \field{number}{3}
+      \field{title}{Measuring information systems success: models, dimensions, measures, and interrelationships}
+      \field{volume}{17}
+      \field{year}{2008}
+      \field{pages}{236\bibrangedash 263}
+      \range{pages}{28}
+    \endentry
+    \entry{sanchez2009moderating}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=f56b9393748f4241aea6a17ec9ec259f}{Sanchez-Franco}{S\bibinithyphendelim F\bibinitperiod}{Manuel\bibnamedelima J}{M\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f56b9393748f4241aea6a17ec9ec259f}
+      \strng{fullhash}{f56b9393748f4241aea6a17ec9ec259f}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Interactive Marketing}
+      \field{number}{3}
+      \field{title}{The moderating effects of involvement on the relationships between satisfaction, trust and commitment in e-banking}
+      \field{volume}{23}
+      \field{year}{2009}
+      \field{pages}{247\bibrangedash 258}
+      \range{pages}{12}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
