@@ -11,8 +11,53 @@ Die Konstruktreliabilität $\rho$ untersucht unter Einsatz der internen Konsiste
 
 Die durchschnittliche erfasste Varianz (DEV) "`setzt den Anteil der erklärten Varianz in Relation zum Messfehler einer latenten Variable"'  \parencite[S.25]{nitzl2010anwenderorientierte}. Ein Wert von DEV $\geq$ 0,5 stellt einen ausreichend hohen Wert dar. Die DEV liegt in dieser Studie mit DEV > 0,7 ebenfalls über dem genannten Schwellenwert und ist somit akzeptabel. Die entsprechenden Werte für die Konstruktreliabilität und die DEV können Tabelle \ref{tab:Übersicht Gütekriterien} entnommen werden. 
 
-Die Diskriminanzvalidilität hingegen "`gibt an, in welchem Ausmaß sich die Indikatoren eines Konstrukts von denen eines anderen Konstrukts unterscheiden"' \parencite[S.26]{nitzl2010anwenderorientierte}. Zur Überprüfung der Diskriminanzvalididtät kann das Fornell-Larcker-Kriterium und die Cross Loadings herangezogen werden. 
+Die Diskriminanzvalidilität hingegen "`gibt an, in welchem Ausmaß sich die Indikatoren eines Konstrukts von denen eines anderen Konstrukts unterscheiden"' \parencite[S.26]{nitzl2010anwenderorientierte}. Zur Überprüfung der Diskriminanzvalididtät kann das Fornell-Larcker-Kriterium und die Cross Loadings herangezogen werden.
+
+
+\begin{table}[h] 
+\footnotesize
+\caption{Cross Loadings}
+\label{tab:Cross-Loadings} 
+\begin{tabular}{@{}llllll@{}} \toprule
+
+ & \textbf{Net Benefit} & \textbf{Nutzerzufriedenheit} & \textbf{Servicequalität} & \textbf{Systemqualität} \\ \midrule
+
+Problemorientiertes Denken 	& \textbf{0,930}	& 0,644	& 0,475	& 0,203	\\
+
+Neu erlerntes Wissen	& \textbf{0,763}	& 0,370 	& 0,250 	& 0,237	\\ 
+
+Zufriedenheit 			& 0,688 		& \textbf{0,907} & 0,541	& 0,339	\\
+
+Nutzereinstellung		& 0,293		& \textbf{0,763}	 & 0,526 & 0,168 \\
+ 
+Verfügbare Beratung		& 0,479 		& 0,546 	&\textbf{0,913}	& 0,257		\\
+
+Onlinehilfe 			& 0,317 		& 0,529	& \textbf{0,794}	& 0,493 		\\
+
+Tutorenunterstützung	& 0,369 		& 0,562 	& \textbf{0,887}	& 0,168		\\ 
+
+Einfache Bedienung		& 0,155 		& 0,227 	& 0,220	& \textbf{0,856}	\\ 
+
+Gute Funktionalitäten 	& 0,258 		& 0,224	& 0,325	& \textbf{0,876} 		\\ 
+ 
+Persönliche Informationen & 0,216 	& 0,334 	& 0,322	& \textbf{0,828}	\\	
+		 
+ \bottomrule
+ 
+\end{tabular}	
+\end{table}
+
+
+
 Bei ersterem wird die Wurzel der DEV einer latenten Variable verglichen mit jeder Korrelation dieser latenten Variable mit einer anderen latenten Variablen und sollte stets größer sein \parencite[vgl.][S.26]{nitzl2010anwenderorientierte}. Das Fornell-Larcker-Kriterium wird in dieser Studie erfüllt (siehe Tabelle \ref{tab:Fornell-Larcker-Kriterium}). Die Cross Loadings können Tabelle \ref{tab:Cross-Loadings} entnommen werden. Ein Indikator sollte dabei die stärkste Beziehung mit dem ihm zugeordneten Konstrukt aufweisen \parencite[vgl.][S.26]{nitzl2010anwenderorientierte}, was ebenfalls erfüllt ist.   \nocite{fornell1981evaluating}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{Grafiken/pls_bw_3.png}
+\caption{PLS Modellergebnisse}
+\label{PLS Modellergebnisse}
+\end{figure}
+
 
 Das Messmodell erfüllt damit alle Gütekriterien. Zur Beurteilung des Strukturmodells (inneres Messmodell) werden das Bestimmtheitsmaß R$^2$, die Pfadkoeeffizienten, die Effektstärke f$^2$ und die Prognoserelevanz Q$^2$ herangezogen.  
 
@@ -68,38 +113,6 @@ Das Geisser-Stone-Kriterium stützt sich auf eine von Geisser und Stone entwicke
 \end{table}
 
 
-\begin{table}[h] 
-\footnotesize
-\caption{Cross Loadings}
-\label{tab:Cross-Loadings} 
-\begin{tabular}{@{}llllll@{}} \toprule
-
- & \textbf{Net Benefit} & \textbf{Nutzerzufriedenheit} & \textbf{Servicequalität} & \textbf{Systemqualität} \\ \midrule
-
-Problemorientiertes Denken 	& \textbf{0,930}	& 0,644	& 0,475	& 0,203	\\
-
-Neu erlerntes Wissen	& \textbf{0,763}	& 0,370 	& 0,250 	& 0,237	\\ 
-
-Zufriedenheit 			& 0,688 		& \textbf{0,907} & 0,541	& 0,339	\\
-
-Nutzereinstellung		& 0,293		& \textbf{0,763}	 & 0,526 & 0,168 \\
- 
-Verfügbare Beratung		& 0,479 		& 0,546 	&\textbf{0,913}	& 0,257		\\
-
-Onlinehilfe 			& 0,317 		& 0,529	& \textbf{0,794}	& 0,493 		\\
-
-Tutorenunterstützung	& 0,369 		& 0,562 	& \textbf{0,887}	& 0,168		\\ 
-
-Einfache Bedienung		& 0,155 		& 0,227 	& 0,220	& \textbf{0,856}	\\ 
-
-Gute Funktionalitäten 	& 0,258 		& 0,224	& 0,325	& \textbf{0,876} 		\\ 
- 
-Persönliche Informationen & 0,216 	& 0,334 	& 0,322	& \textbf{0,828}	\\	
-		 
- \bottomrule
- 
-\end{tabular}	
-\end{table}
 
 
 
